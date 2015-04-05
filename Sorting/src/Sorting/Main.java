@@ -16,15 +16,15 @@ public class Main {
 		}
 		
 		System.out.println("Unsorted Array:");
+		System.out.println(Arrays.toString(unsortedArray));
+//		for (int i: unsortedArray) {
+//				System.out.print(i + " ");
+//		}
 		
-		for (int i: unsortedArray) {
-				System.out.print(i + " ");
-		}
-		System.out.println();
 		
 		System.out.println("Sorted Array:");
 		//TODO: sort the array and print out its contents
-		System.out.println(Arrays.toString(BubbleSort.bubbleSort(unsortedArray)));
+		System.out.println(Arrays.toString(InsertionSort.insertionSort(unsortedArray)));
 		
 		
 	}
