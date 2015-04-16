@@ -1,6 +1,7 @@
 package Sorting;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class Main {
 
@@ -24,9 +25,7 @@ public class Main {
 		
 		System.out.println("Sorted Array:");
 		//TODO: sort the array and print out its contents
-		System.out.println(Arrays.toString(InsertionSort.insertionSort(unsortedArray)));
-		
-		
+		System.out.println(Arrays.toString(InsertionSort.insertionSort(unsortedArray)));		
 	}
 
 }
